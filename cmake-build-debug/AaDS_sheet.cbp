@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug"/>
+				<Option working_dir="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AaDS_sheet">
-				<Option output="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/AaDS_sheet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug"/>
+				<Option output="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/AaDS_sheet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 AaDS_sheet"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 AaDS_sheet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AaDS_sheet/fast">
-				<Option output="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/AaDS_sheet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug"/>
+				<Option output="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/AaDS_sheet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,103 +55,106 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 AaDS_sheet/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 AaDS_sheet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug"/>
+				<Option working_dir="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sonichka/Documents/AaDS-sheet/cmake-build-debug"/>
+				<Option working_dir="/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/2_rk.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/2_rk.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/AVLtree.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/AVLtree.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/heap.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/deque.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw/1.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/heap.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw/2.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw/1.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw/3.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw/2.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw/4.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw/3.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw/5.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw/4.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw2/1.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw/5.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw2/2.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw2/1.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw2/4.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw2/2.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw3/2.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw2/4.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw3/3.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw3/2.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/hw3/5.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw3/3.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/queue.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/hw3/5.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/rk1.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/queue.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/rk2.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/rk1.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/sem4-hash.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/rk2.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/spring/1/1.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/sem4-hash.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/spring/1/2.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/1.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/spring/1/3.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/2.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/spring/rk1/rk1.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/3.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/stack.cpp">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/spring/rk1/rk1.cpp">
 			<Option target="AaDS_sheet"/>
 		</Unit>
-		<Unit filename="/home/sonichka/Documents/AaDS-sheet/CMakeLists.txt">
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/stack.cpp">
+			<Option target="AaDS_sheet"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/technopark/AaDS-sheet/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

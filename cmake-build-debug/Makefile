@@ -57,10 +57,10 @@ RM = /snap/clion/189/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sonichka/Documents/AaDS-sheet
+CMAKE_SOURCE_DIR = /home/sonichka/Documents/technopark/AaDS-sheet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sonichka/Documents/AaDS-sheet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonichka/Documents/AaDS-sheet/cmake-build-debug/CMakeFiles /home/sonichka/Documents/AaDS-sheet/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles /home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonichka/Documents/AaDS-sheet/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,30 @@ AVLtree.s: AVLtree.cpp.s
 AVLtree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AaDS_sheet.dir/build.make CMakeFiles/AaDS_sheet.dir/AVLtree.cpp.s
 .PHONY : AVLtree.cpp.s
+
+deque.o: deque.cpp.o
+.PHONY : deque.o
+
+# target to build an object file
+deque.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AaDS_sheet.dir/build.make CMakeFiles/AaDS_sheet.dir/deque.cpp.o
+.PHONY : deque.cpp.o
+
+deque.i: deque.cpp.i
+.PHONY : deque.i
+
+# target to preprocess a source file
+deque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AaDS_sheet.dir/build.make CMakeFiles/AaDS_sheet.dir/deque.cpp.i
+.PHONY : deque.cpp.i
+
+deque.s: deque.cpp.s
+.PHONY : deque.s
+
+# target to generate assembly for a file
+deque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AaDS_sheet.dir/build.make CMakeFiles/AaDS_sheet.dir/deque.cpp.s
+.PHONY : deque.cpp.s
 
 heap.o: heap.cpp.o
 .PHONY : heap.o
@@ -696,6 +720,9 @@ help:
 	@echo "... AVLtree.o"
 	@echo "... AVLtree.i"
 	@echo "... AVLtree.s"
+	@echo "... deque.o"
+	@echo "... deque.i"
+	@echo "... deque.s"
 	@echo "... heap.o"
 	@echo "... heap.i"
 	@echo "... heap.s"

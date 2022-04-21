@@ -1,3 +1,3 @@
-/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/CMakeFiles/AaDS_sheet.dir
-/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sonichka/Documents/AaDS-sheet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles/AaDS_sheet.dir
+/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
