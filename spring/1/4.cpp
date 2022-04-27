@@ -1,25 +1,22 @@
 //
-// Created by sonichka on 22.11.2021.
+// Created by sonichka on 21.04.22.
 //
 #include "iostream"
 
 using namespace std;
 
-struct Process{
-    int P;
-    int T;
-    int t = 0;
+struct User {
+    int id;
+    int visits;
 };
 
-struct ProcessValue{
-    bool operator() (const Process& l, const Process& r){
-        return l.P*(l.t + 1) > r.P*(r.t + 1);
+struct VisitsComparator {
+    bool operator() (const User& l, const User& r){
+        return l.visits < r.visits;
     }
 };
 
-
-
-template<class T, class Comparator=ProcessValue>
+template<class T, class Comparator=VisitsComparator>
 class Heap {
 public:
     explicit Heap(): arr(nullptr), size(0), bufferSize(0){}
@@ -52,12 +49,14 @@ public:
     }
 
     T pop(){
-
-        T temp = arr[0];
-        arr[0] = arr[size-1];
-        size--;
-        sift_down(0);
-        return temp;
+        if(!isEmpty()) {
+            T temp = arr[0];
+            arr[0] = arr[size - 1];
+            size--;
+            if (!isEmpty())
+                sift_down(0);
+            return temp;
+        }
     }
 
     bool isEmpty() const{
@@ -66,7 +65,7 @@ public:
 
     void printHeap() {
         for (int i = 0; i < size; ++i) {
-            std::cout << i << ". " << arr[i].P << '\n';
+            std::cout << i << ". " << arr[i].visits << '\n';
         }
     }
 
@@ -110,32 +109,29 @@ private:
     }
 };
 
-size_t ProcessPlanner(Heap<Process> heap){
-    size_t process_counter = 0;
-    while(!(heap.isEmpty())) {
-        process_counter += 1;
-        Process p = heap.pop();
-        p.t += p.P;
-        if (p.t >= p.T){
-            continue;
-        }
-        heap.push(p);
+void MostVisits(int k, Heap<User> heap){
+    User* arr = new User[k];
+    for (int i = 0; i < k; ++i) {
+        arr[i] = heap.pop();
     }
-    return process_counter;
+    for (int i = k - 1; i >=0; --i) {
+        std::cout << arr[i].id <<' ';
+    }
 }
 
 //int main(){
-//    int process_num;
-//    Heap<Process> h = Heap<Process>();
+//    int n, k;
+//    Heap<User> h = Heap<User>();
 //
-//    cin >> process_num;
+//    cin >> n >> k;
 //
-//    for (int i = 0; i < process_num; ++i) {
-//        Process p;
-//        cin >> p.P >> p.T;
-//        h.push(p);
+//    for (int i = 0; i < n; ++i) {
+//        User user;
+//        cin >> user.id >> user.visits;
+//        h.push(user);
 //    }
 //
-////    cout << ProcessPlanner(h);
-//    h.printHeap();
-//}
+////    h.printHeap();
+//    MostVisits(k, h);
+//};
+

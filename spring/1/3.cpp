@@ -30,9 +30,6 @@ public:
 
         size++;
         tail++;
-
-//        std::cout << '\n';
-//        printDeque();
     }
 
     void push_front(T elem) {
@@ -56,9 +53,6 @@ public:
             buffer[head] = elem;
         }
         size++;
-
-//        std::cout << '\n';
-//        printDeque();
     }
 
     T pop_front() {
@@ -67,9 +61,6 @@ public:
         }
 
         int temp_head = buffer[head];
-
-//        std::cout << '\n';
-//        std::cout << temp_head << '\n';
 
         size--;
         if (head == bufferSize)
@@ -89,9 +80,6 @@ public:
         tail--;
         if (tail == 0 && size != 0)
             tail = bufferSize + 1;
-
-//        std::cout << '\n';
-//        std::cout << temp << '\n';
 
         return temp;
     }
@@ -124,8 +112,6 @@ private:
             if (head > tail) {
                 for (int i = 0; i < (bufferSize - tail); ++i) {
                     temp[i] = buffer[head + i];
-                    T t = buffer[(head + i)];
-                    int u = 0;
                 }
 
                 for (int i = bufferSize - tail; i < size; ++i) {
@@ -152,41 +138,41 @@ private:
         }
     }
 };
-
-int main(){
-    Deque<int> q = Deque<int> ();
-    int a = 0, b = 0, commands = 0;
-    bool complete = true;
-
-    std::cin >> commands;
-
-    for (int i = 0; i < commands; ++i) {
-        std::cin >> a >> b;
-        switch (a) {
-            case 1:
-                q.push_front(b);
-                break;
-            case 2:
-                if(q.pop_front() != b)
-                    complete = false;
-                break;
-            case 3:
-                q.push_back(b);
-                break;
-            case 4:
-                if(q.pop_back() != b)
-                    complete = false;
-                break;
-            default:
-                break;
-        }
-    }
-
-    if (complete)
-        std::cout << "YES";
-    else
-        std::cout << "NO";
-
-    return 0;
-}
+//
+//int main(){
+//    Deque<int> q = Deque<int> ();
+//    int a = 0, b = 0, commands = 0;
+//    bool complete = true;
+//
+//    std::cin >> commands;
+//
+//    for (int i = 0; i < commands; ++i) {
+//        std::cin >> a >> b;
+//        switch (a) {
+//            case 1:
+//                q.push_front(b);
+//                break;
+//            case 2:
+//                if(q.pop_front() != b)
+//                    complete = false;
+//                break;
+//            case 3:
+//                q.push_back(b);
+//                break;
+//            case 4:
+//                if(q.pop_back() != b)
+//                    complete = false;
+//                break;
+//            default:
+//                break;
+//        }
+//    }
+//
+//    if (complete)
+//        std::cout << "YES";
+//    else
+//        std::cout << "NO";
+//
+//    return 0;
+//}
 

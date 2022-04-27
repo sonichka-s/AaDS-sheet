@@ -405,6 +405,62 @@ CMakeFiles/AaDS_sheet.dir/deque.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AaDS_sheet.dir/deque.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonichka/Documents/technopark/AaDS-sheet/deque.cpp -o CMakeFiles/AaDS_sheet.dir/deque.cpp.s
 
+CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o: CMakeFiles/AaDS_sheet.dir/flags.make
+CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o: ../spring/1/4.cpp
+CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o: CMakeFiles/AaDS_sheet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o -MF CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o.d -o CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o -c /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/4.cpp
+
+CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/4.cpp > CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.i
+
+CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/4.cpp -o CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.s
+
+CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o: CMakeFiles/AaDS_sheet.dir/flags.make
+CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o: ../spring/1/5.cpp
+CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o: CMakeFiles/AaDS_sheet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o -MF CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o.d -o CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o -c /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/5.cpp
+
+CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/5.cpp > CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.i
+
+CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/5.cpp -o CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.s
+
+CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o: CMakeFiles/AaDS_sheet.dir/flags.make
+CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o: ../spring/1/6.cpp
+CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o: CMakeFiles/AaDS_sheet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o -MF CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o.d -o CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o -c /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/6.cpp
+
+CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/6.cpp > CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.i
+
+CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/6.cpp -o CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.s
+
+CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o: CMakeFiles/AaDS_sheet.dir/flags.make
+CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o: ../spring/1/7.cpp
+CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o: CMakeFiles/AaDS_sheet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o -MF CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o.d -o CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o -c /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/7.cpp
+
+CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/7.cpp > CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.i
+
+CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/7.cpp -o CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.s
+
 # Object files for target AaDS_sheet
 AaDS_sheet_OBJECTS = \
 "CMakeFiles/AaDS_sheet.dir/stack.cpp.o" \
@@ -430,7 +486,11 @@ AaDS_sheet_OBJECTS = \
 "CMakeFiles/AaDS_sheet.dir/spring/rk1/rk1.cpp.o" \
 "CMakeFiles/AaDS_sheet.dir/spring/1/2.cpp.o" \
 "CMakeFiles/AaDS_sheet.dir/spring/1/3.cpp.o" \
-"CMakeFiles/AaDS_sheet.dir/deque.cpp.o"
+"CMakeFiles/AaDS_sheet.dir/deque.cpp.o" \
+"CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o" \
+"CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o" \
+"CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o" \
+"CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o"
 
 # External object files for target AaDS_sheet
 AaDS_sheet_EXTERNAL_OBJECTS =
@@ -459,9 +519,13 @@ AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/rk1/rk1.cpp.o
 AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/1/2.cpp.o
 AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/1/3.cpp.o
 AaDS_sheet: CMakeFiles/AaDS_sheet.dir/deque.cpp.o
+AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o
+AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o
+AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o
+AaDS_sheet: CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o
 AaDS_sheet: CMakeFiles/AaDS_sheet.dir/build.make
 AaDS_sheet: CMakeFiles/AaDS_sheet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable AaDS_sheet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sonichka/Documents/technopark/AaDS-sheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable AaDS_sheet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AaDS_sheet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

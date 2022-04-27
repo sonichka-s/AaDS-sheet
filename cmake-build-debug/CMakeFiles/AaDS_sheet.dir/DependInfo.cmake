@@ -30,6 +30,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/1.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/1.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/1.cpp.o.d"
   "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/2.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/2.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/2.cpp.o.d"
   "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/3.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/3.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/3.cpp.o.d"
+  "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/4.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/4.cpp.o.d"
+  "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/5.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/5.cpp.o.d"
+  "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/6.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o.d"
+  "/home/sonichka/Documents/technopark/AaDS-sheet/spring/1/7.cpp" "CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/1/7.cpp.o.d"
   "/home/sonichka/Documents/technopark/AaDS-sheet/spring/rk1/rk1.cpp" "CMakeFiles/AaDS_sheet.dir/spring/rk1/rk1.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/spring/rk1/rk1.cpp.o.d"
   "/home/sonichka/Documents/technopark/AaDS-sheet/stack.cpp" "CMakeFiles/AaDS_sheet.dir/stack.cpp.o" "gcc" "CMakeFiles/AaDS_sheet.dir/stack.cpp.o.d"
   )

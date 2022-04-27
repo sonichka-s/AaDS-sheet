@@ -1,5 +1,5 @@
-CMakeFiles/AaDS_sheet.dir/hw2/4.cpp.o: \
- /home/sonichka/Documents/technopark/AaDS-sheet/hw2/4.cpp \
+CMakeFiles/AaDS_sheet.dir/spring/1/6.cpp.o: \
+ /home/sonichka/Documents/technopark/AaDS-sheet/spring/1/6.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -135,9 +135,4 @@ CMakeFiles/AaDS_sheet.dir/hw2/4.cpp.o: \
  /usr/include/c++/9/bits/locale_facets.tcc \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
- /usr/include/c++/9/bits/istream.tcc /usr/include/c++/9/vector \
- /usr/include/c++/9/bits/stl_construct.h \
- /usr/include/c++/9/bits/stl_uninitialized.h \
- /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /usr/include/assert.h
+ /usr/include/c++/9/bits/istream.tcc

@@ -1,6 +1,44 @@
-5
-1 22
-1 33
-3 44
-1 55
-4 44
+    Comparator comp;
+
+    int leftSize = mid - left + 1;
+    int rightSize = right - mid;
+
+    T* leftArr = new T[leftSize];
+    T* rightArr = new T[rightSize];
+
+    for (int i = 0; i < leftSize; ++i) {
+        leftArr[i] = arr[left + i];
+    }
+
+    for (int i = 0; i < rightSize; ++i) {
+        rightArr[i] = arr[mid + i + 1];
+    }
+
+    int leftIdx = 0;
+    int rightIdx = 0;
+    int mergedArrIdx = left;
+
+    while (leftIdx < leftSize && rightIdx < rightSize) {
+        if (comp(leftArr[leftIdx], rightArr[rightIdx])) {
+            arr[mergedArrIdx] = leftArr[leftIdx];
+            leftIdx++;
+        }
+
+        else {
+            arr[mergedArrIdx] = rightArr[rightIdx];
+            rightIdx++;
+        }
+        mergedArrIdx++;
+    }
+
+    while (leftIdx < leftSize) {
+        arr[mergedArrIdx] = leftArr[leftIdx];
+        leftIdx++;
+        mergedArrIdx++;
+    }
+
+    while (rightIdx < rightSize) {
+        arr[mergedArrIdx] = rightArr[rightIdx];
+        rightIdx++;
+        mergedArrIdx++;
+    }
